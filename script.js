@@ -1,16 +1,16 @@
-function sleep(){
-    document.getElementsByClassName("val")
-}
-function add(){
-    document.getElementsByClassName("task1")
-}
-function me(){
-    document.getElementsByClassName("task")
-    let paragraph = document.createElement("p")
+// function sleep(){
+//     document.getElementsByClassName("val")
+// }
+// function add(){
+//     document.getElementsByClassName("task1")
+// }
+// function me(){
+//     document.getElementsByClassName("task")
+//     let paragraph = document.createElement("p")
 
-}
+// }
 
-addEventListener("click")
+// addEventListener("click")
 
 let sleep = document.getElementsByClassName("val");
 let add = document.getElementsByClassName("task1");
