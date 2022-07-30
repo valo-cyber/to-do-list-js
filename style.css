@@ -3,44 +3,80 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 body{
     height: 100vh;
+    font-family: 'Oswald', sans-serif;
+    background-color: rgba(137, 43, 226, 0.493);
+}
+.container{
+    border: 1px solid;
+    background-color: wheat;
+    width: 95%;
+    margin: auto;
 }
 .abas{
-    width: 40%;
+    width: 100%;
     min-width: 450px;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
-    background: blue;
-    min-height: 20vh;
+    margin: 25px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
-.task{
-    position: relative;
-    padding-top: 30px;
-    padding-left: 20px;
+.user-input{
+    text-align: center;
+    width: 350px;
+    /* -webkit-transition:all 0.30s ease-in-out;
+    -moz-transition:all 0.30s ease-in-out;
+    -ms-transition:all 0.30s ease-in-out;
+    -o-transition:all 0.30s ease-in-out;
+    transition:all 0.30s ease-in-out; */
 }
 input{
-    width: 70%;
-    height: 30px;
-    padding: 5px;
+    width: 80%;
+    outline: none;
+    padding: 8px;
+    border: 1px solid ;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
-button{
-    position: relative;
-    height: 40px;
-    width: 50px;
-    margin-left: 20px;
-    border: none;
+.user-input input:focus{
+    /* box-shadow: 0 0 5px #e22865; */
+    border: 1px solid;
 }
-.task1{
-    background-color: rgba(245, 222, 179, 0.812);
-    height: 50px;
-    margin-top: 10px;
-    padding-top: 5px;
-    padding-left: 7px;
-    align-items: center;
+ button{
     cursor: pointer;
+    padding: 8px;
+    width: fit-content;
+    outline: none;
+    background-color: gray;
+    border: 1px solid gray;
+    border: none;
+    height: 33px;
+} 
+.to-do-items{
+    width: 500px;
+    margin: auto;
+}
+.container1{
+    background-color: rgba(137, 43, 226, 0.493);
+    height: 100vh;
+}
+.item{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+    padding: 16px;
+    color: black;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.item i{
+    cursor: pointer;
+    margin: 0 5px;
 }

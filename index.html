@@ -7,17 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To do list</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="abas">
-        <div class="task"><input type="text" placeholder="Task To Do">
-            <button class="val">ADD</button>
+    <div class="container">
+        <div class="abas">
+            <h1>Todo List</h1>
+            <div class="user-input">
+                <input id="input" type="text"><button onclick="addItem()">ADD</button>
+            </div>
         </div>
-        <div class="task1"></div>
     </div>
+    <div class="container1">
+        <div class="to-do-items">
 
+        </div>
+    </div>
     <script src="./script.js"></script>
 </body>
 
