@@ -1,26 +1,3 @@
-// function sleep(){
-//     document.getElementsByClassName("val")
-// }
-// function add(){
-//     document.getElementsByClassName("task1")
-// }
-// function me(){
-//     document.getElementsByClassName("task")
-//     let paragraph = document.createElement("p")
-
-// }
-
-// addEventListener("click")
-
-// let sleep = document.getElementsByClassName("val");
-// let add = document.getElementsByClassName("task1");
-// let me = document.getElementsByClassName("task");
-
-// sleep.addEventListener("click", function(){
-//     let paragraph = document.createElement("p")
-//     paragraph.innerText = task1.value;
-//     add.appendChild(paragraph);
-// })
 
  const toDoItems = document.getElementsByClassName("to-do-items")[0];
  const input = document.getElementById("input")
@@ -41,7 +18,7 @@ function addItem(){
 
     checkIcon.className = "check";
     checkIcon.style.color = "white";
-    checkIcon.style.marginRight="10px"
+    checkIcon.style.marginRight= "10px"
     checkIcon.addEventListener("click", function(){
         checkIcon.style.color = "limegreen"
     })
